@@ -8,4 +8,5 @@ For this example, the solver uses the IDA* (Iterative Deepening A*) algorithm wi
 4. Displays the sequence of moves to solve the cube
 
 The output is shown below:-
-![Solved Cube](rubikscube.png)
+![Solved Cube](<img width="810" height="487" alt="image" src="https://github.com/user-attachments/assets/d3d82064-fdec-4850-9632-862ce988d9b9" />
+)
