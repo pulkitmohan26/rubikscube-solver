@@ -1,38 +1,35 @@
-🧩 Rubik's Cube Solver
+# 🧩 Rubik's Cube Solver
 
-A high-performance 3×3 Rubik's Cube Solver implemented entirely in C++ using the Standard Template Library (STL). The project models every cube state efficiently and explores multiple search algorithms to solve the puzzle from any valid scramble.
+A high-performance **3×3 Rubik's Cube Solver** implemented in **C++** using the Standard Template Library (STL). The project accurately models cube states and solves any valid scramble using multiple classical and heuristic search algorithms.
 
+## 🚀 Features
 
-🚀 Features                                                                                                                                                        🎲 Accurate simulation of a standard 3×3 Rubik's Cube
+* Accurate simulation of a standard 3×3 Rubik's Cube.
+* Efficient cube representation and state transition system.
+* Implemented Breadth-First Search (BFS).
+* Implemented Depth-First Search (DFS).
+* Implemented Iterative Deepening Depth-First Search (IDDFS).
+* Implemented Korf's Iterative Deepening A* (IDA*) algorithm.
+* Heuristic-guided search for faster and memory-efficient solving.
+* Modular and object-oriented codebase for easy extensibility.
+* Performance comparison across different solving algorithms.
 
-⚡ Efficient cube representation using optimized data structures
+## 🛠️ Tech Stack
 
-🔍 Multiple search algorithms:
+* **Language:** C++
+* **Libraries:** Standard Template Library (STL)
 
-Breadth-First Search (BFS)
+## 📌 Highlights
 
-Depth-First Search (DFS)
+* Built the complete Rubik's Cube simulator from scratch.
+* Engineered efficient move generation and state management.
+* Applied graph search and heuristic search techniques to solve the cube.
+* Optimized search performance through efficient data structures and algorithms.
 
-Iterative Deepening DFS (IDDFS)
+## 🎯 Future Improvements
 
-Korf's Iterative Deepening A* (IDA*)
-
-🧠 Heuristic-guided optimal search for significantly faster solutions
-
-📈 Performance comparison across different solving strategies
-
-🛠️ Modular, object-oriented C++ design for easy extensibility
-🛠️ Tech Stack
-Language: C++
-Libraries: Standard Template Library (STL)
-Algorithms: BFS, DFS, IDDFS, IDA*
-📌 Highlights
-Built the complete Rubik's Cube simulator from scratch.
-Implemented classic graph search and heuristic search algorithms.
-Optimized memory usage and state transitions for efficient solving.
-Designed a reusable architecture that can be extended with additional heuristics and search techniques.
-🎯 Future Improvements
-Pattern Database (PDB) heuristics
-Graphical visualization of cube states
-Support for custom cube sizes (2×2, 4×4)
-Interactive command-line interface and scramble generator
+* Pattern Database (PDB) heuristics for faster optimal solutions.
+* Interactive command-line interface.
+* Graphical visualization of cube states.
+* Support for additional cube sizes (2×2, 4×4, etc.).
+* Performance benchmarking and statistics dashboard.
