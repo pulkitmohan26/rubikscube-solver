@@ -4,11 +4,8 @@ A high-performance 3×3 Rubik's Cube Solver implemented entirely in C++ using th
 
 
 🚀 Features
-
 🎲 Accurate simulation of a standard 3×3 Rubik's Cube
-
 ⚡ Efficient cube representation using optimized data structures
-
 🔍 Multiple search algorithms:
 
 Breadth-First Search (BFS)
