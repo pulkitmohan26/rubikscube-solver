@@ -2,16 +2,27 @@
 
 A high-performance 3×3 Rubik's Cube Solver implemented entirely in C++ using the Standard Template Library (STL). The project models every cube state efficiently and explores multiple search algorithms to solve the puzzle from any valid scramble.
 
+
 🚀 Features
+
 🎲 Accurate simulation of a standard 3×3 Rubik's Cube
+
 ⚡ Efficient cube representation using optimized data structures
+
 🔍 Multiple search algorithms:
+
 Breadth-First Search (BFS)
+
 Depth-First Search (DFS)
+
 Iterative Deepening DFS (IDDFS)
+
 Korf's Iterative Deepening A* (IDA*)
+
 🧠 Heuristic-guided optimal search for significantly faster solutions
+
 📈 Performance comparison across different solving strategies
+
 🛠️ Modular, object-oriented C++ design for easy extensibility
 🛠️ Tech Stack
 Language: C++
